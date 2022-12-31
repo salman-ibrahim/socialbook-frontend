@@ -19,7 +19,7 @@ const SponsorWidget = () => {
                 width="100%"
                 height="auto"
                 alt="sponsor"
-                src="http://localhost:3001/assets/sponsor.png"
+                src="https://socialbook-api.netlify.app/assets/sponsor.png"
                 style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
             />
             <FlexBetween>

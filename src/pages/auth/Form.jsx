@@ -58,7 +58,7 @@ const Form = () => {
         }
         formData.append("picturePath", values.picture.name);
 
-        const response = await fetch("http://localhost:3001/auth/register", {
+        const response = await fetch("https://socialbook-api.netlify.app/auth/register", {
             method: "POST",
             body: formData,
         })
@@ -72,7 +72,7 @@ const Form = () => {
     }
 
     const login = async (values, onSubmitProps) => {
-        const response = await fetch("http://localhost:3001/auth/login", {
+        const response = await fetch("https://socialbook-api.netlify.app/auth/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

@@ -36,7 +36,7 @@ console.log(params);
   }, [])
   const patchFriend = async () => {
     const response = await fetch(
-      `http://localhost:3001/users/${_id}/${friendId}`,
+      `https://socialbook-api.netlify.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
